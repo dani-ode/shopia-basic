@@ -1,0 +1,130 @@
+// Global style
+
+
+@import 'color-palette';
+
+
+.text-v-l,.text-v-l a  {
+    color: $very_light;
+}
+.bg-v-l {
+    background-color: $very_light;
+}
+.text-light,.text-light a {
+    color: $light !important;
+}
+.bg-light {
+    background-color: $light !important;
+}
+.text-primary, .text-primary a {
+    color: $primary !important;
+}
+.bg-primary {
+    background-color: $primary !important;
+}
+.text-dark,.text-dark a {
+    color: $dark !important;
+}
+.bg-dark {
+    background-color: $dark !important;
+}
+.text-v-d,.text-v-d a {
+    color: $very_dark;
+}
+.bg-v-d {
+    background-color: $very_dark;
+}
+
+
+.text-a-l,.text-a-l a {
+    color: $addition_light;
+}
+.bg-a-l {
+    background-color: $addition_light;
+}
+.text-addition, a, article a:hover{
+    color: $addition;
+}
+.bg-addition {
+    background-color: $addition;
+}
+.text-a-d,.text-a-d a {
+    color: $addition_dark;
+}
+.bg-a-d {
+    background-color: $addition_dark;
+}
+
+
+.text-white,.text-white a {
+    color: $white;
+}
+.bg-white {
+    background-color: $white;
+}
+.text-gray,.text-gray a {
+    color: $gray;
+}
+.bg-gray {
+    background-color: $gray;
+}
+.text-black {
+    color: $black;
+}
+.bg-black {
+    background-color: $black;
+}
+
+.hover:hover,a :hover{
+    opacity: 0.9;
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+.bulat{
+    border-radius: 500px;
+}
+
+img{
+    object-fit: cover;
+}
+.button-padding{
+    padding: 5px 20px;
+}
+ul .li-none{
+    list-style: none;
+}
+
+input, .input-text, textarea {
+    border: 2px solid $gray;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: $white;
+}
+input, .input-text{
+    height: 37px;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected], .select2-container--default .select2-results__option--highlighted[data-selected] {
+    background-color: $dark;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 5px $primary;
+    margin-bottom: 5px;
+}
+
+.kekiri-1 {
+    margin-left: 8px;
+}
+
+.text-v-s{
+    font-size: 10px;
+}
