@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php get_template_part('/template-parts/navbar/navblog');?>
+<?php get_template_part('/template-parts/navbar/navbar-blog');?>
 <br>
 <br>
 <main class="mt-5">
@@ -32,6 +32,6 @@
 
     </article>
 </main>
-<?php get_template_part('/template-parts/footer/footerblog');?>
+<?php get_template_part('/template-parts/footer/footer-nav');?>
 <?php get_footer(); ?>
 

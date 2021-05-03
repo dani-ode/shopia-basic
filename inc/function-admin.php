@@ -3,7 +3,7 @@
  * Function Admin
  * Menambahkan menu pengaturan untuk tema Shopia di dashboard Admin
  * 
- * @package Shopia Theme
+ * @package Shopia Basic Theme
  */
 
 

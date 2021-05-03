@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php get_template_part('/template-parts/navbar/navblog');?>
+<?php get_template_part('/template-parts/navbar/navbar-blog');?>
     <br>
     <main>
         <div class="container mt-5 p-0">
@@ -38,6 +38,6 @@
 
         </div>
     </main>
-<?php get_template_part('/template-parts/footer/footerblog');?>
+<?php get_template_part('/template-parts/footer/footer-nav');?>
 <?php get_footer(); ?>
 

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <?php if(have_posts()): ?> 
-<?php get_template_part('/template-parts/navbar/navpage');?>
+<?php get_template_part('/template-parts/navbar/navbar-page');?>
     <main class="mt-2">
         <article class="container">
             <div class="main-article page-canvas mt-4 mb-4">
@@ -14,5 +14,5 @@
         </article>
     </main>
 <?php endif;?>
-<?php get_template_part('/template-parts/footer/footerpage');?>
+<?php get_template_part('/template-parts/footer/footer-nav');?>
 <?php get_footer(); ?>

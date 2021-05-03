@@ -2,7 +2,7 @@
 /**
  * Portfolio - custom post type
  * 
- * @package Shopia Theme
+ * @package Shopia Basic Theme
  */
 
 

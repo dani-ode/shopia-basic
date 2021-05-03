@@ -3,7 +3,7 @@
  * Color Palette -
  * Memungkinkan admin mengatur warna website wordpress melalui menu "Customize"
  * 
- * @package Shopia Theme
+ * @package Shopia Basic Theme
  */
 
 

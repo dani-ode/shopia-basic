@@ -2,7 +2,7 @@
 /**
  * Shopia function
  * 
- * @package shopia package
+ * @package shopia Basic package
  */
 
 
@@ -12,7 +12,6 @@ function shopia_theme_setup(){
     
     register_nav_menu( 'primary', 'Prymary Header Navigation' );
     register_nav_menu( 'secondary', 'Footer Navigation' );
-    register_nav_menu( 'shop', 'Shop Navbar' );
 }
 add_action( 'init', 'shopia_theme_setup' );
 
@@ -67,3 +66,78 @@ if (has_custom_logo()) :
 endif;
 
 
+/**
+ * Shopia Customize
+ */
+
+//copryright
+function shopia_copyright_customizer($wp_customize){
+    $wp_customize->add_section( 'sec_copyright', array(
+        'title'         => 'Copyright Section',
+        'description'   => ''
+    ) );
+    $wp_customize->add_setting( 'set_copyright', array(
+        'type'          => 'theme_mod',
+        'default'       => '',
+        'saniteze_callback' => 'satitize_text_field'
+    ) );
+    $wp_customize->add_control( 'set_copyright', array(
+        'label'         => 'Copyright',
+        'description'   => 'Please Fill the Copyright Text',
+        'section'       => 'sec_copyright',
+        'type'          => 'text'
+    ) );
+
+}
+add_action( 'customize_register', 'shopia_copyright_customizer' );
+
+
+
+//social icons
+function social_media_url($wp_customize){
+    $wp_customize->add_section( 'sec_social_media_url', array(
+        'title'         => 'Social Media Url',
+        'description'   => ''
+    ) );
+
+        //Facebook
+        $wp_customize->add_setting( 'set_facebook', array(
+            'type'          => 'theme_mod',
+            'default'       => '',
+            'saniteze_callback' => 'satitize_text_field'
+        ) );
+        $wp_customize->add_control( 'set_facebook', array(
+            'label'         => 'Facebook',
+            'description'   => '',
+            'section'       => 'sec_social_media_url',
+            'type'          => 'text'
+        ) );
+
+        //WhatsApp
+        $wp_customize->add_setting( 'set_whatsapp', array(
+            'type'          => 'theme_mod',
+            'default'       => '',
+            'saniteze_callback' => 'satitize_text_field'
+        ) );
+        $wp_customize->add_control( 'set_whatsapp', array(
+            'label'         => 'WhatsApp Number',
+            'description'   => '',
+            'section'       => 'sec_social_media_url',
+            'type'          => 'text'
+        ) );
+
+        //Instagram
+        $wp_customize->add_setting( 'set_instagram', array(
+            'type'          => 'theme_mod',
+            'default'       => '',
+            'saniteze_callback' => 'satitize_text_field'
+        ) );
+        $wp_customize->add_control( 'set_instagram', array(
+            'label'         => 'Instagram',
+            'description'   => '',
+            'section'       => 'sec_social_media_url',
+            'type'          => 'text'
+        ) );
+
+}
+add_action( 'customize_register', 'social_media_url' );

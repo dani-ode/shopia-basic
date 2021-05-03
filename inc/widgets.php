@@ -2,7 +2,7 @@
 /**
  * Widgets - add widget in Sidebar and Footer
  * 
- * @package Shopia Theme
+ * @package Shopia Basic Theme
  */
 
 
