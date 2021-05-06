@@ -3,7 +3,8 @@
 
 <div class="pricing-header pt-5 p-3 pb-md-4 mx-auto text-center bg-primary">
   <h1 class="display-4 fw-bold text-white">Find the Right Plan for You</h1>
-  <p class="fs-5 text-white fw-light">30-Day Money Back Guarantee on All Plans</p>
+  <p class="fs-5 text-white fw-light">Licensinya berlaku lifetime, sekali bayar untuk selamanya</p>
+  <p class="fs-5 text-white fw-bold">Note : Masih tahap Develop</p>
 <br>
 <br>
 <br>
@@ -12,7 +13,8 @@
 
 </div>
 
-<div class="container plan-container py-3 mt-n1">
+
+<!-- <div class="container plan-container py-3 mt-n1">
   <main>
     <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
       <div class="col">
@@ -155,7 +157,7 @@
 </div>
 <br>
 <br>
-<br>
+<br> -->
 
 <?php get_template_part('/template-parts/footer/footer-nav');?>
 <?php get_footer(); ?>

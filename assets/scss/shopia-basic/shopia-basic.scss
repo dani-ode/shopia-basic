@@ -542,3 +542,20 @@ div#media_image-4 {
     animation-name: fadeInLeft;
     animation-duration: 3s;
 }
+
+
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgb(46 95 80 / 68%) 0%, rgb(43 90 78 / 74%) 100%),url(../../images/bg-masthead.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.card-feature svg {
+    color: #75cfb8;
+}
+
