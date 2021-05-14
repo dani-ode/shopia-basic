@@ -14,7 +14,7 @@
         </div>
         <div class="col">
             <div class="bg-white p-3 pb-4 pt-4 shadow rounded">
-                <div class="container-article">
+                <div class="container-cara-install-article">
                     <?php the_content() ;?>
                 </div>
 

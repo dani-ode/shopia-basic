@@ -440,7 +440,7 @@ input#wp-comment-cookies-consent {
     max-width: 600px;
 }
 
-div#media_image-4 {
+.widget_media_image {
     width: 100px;
     margin: 0 auto;
 }
@@ -562,4 +562,11 @@ header.masthead {
 .container-article {
     max-width: 700px;
     margin: 0 auto;
+}
+
+.container-cara-install-article img {
+    max-width: 90%;
+    height: auto;
+    box-shadow: 2px 2px 20px -2px #868686;
+    border-radius: 8px !important;
 }
