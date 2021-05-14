@@ -559,7 +559,7 @@ header.masthead {
     color: #75cfb8;
 }
 
-.container-article {
+.container-cara-install-article {
     max-width: 700px;
     margin: 0 auto;
 }
@@ -567,12 +567,17 @@ header.masthead {
 .container-cara-install-article img {
     max-width: 90%;
     height: auto;
-    box-shadow: 2px 2px 20px -2px #868686;
+    box-shadow: 3px 3px 10px 0px #cececee0;
     border-radius: 8px !important;
+    filter: brightness(0.9);
+}
+.container-cara-install-article img:hover {
+    filter: brightness(1);
 }
 
 img.wp-image-53 {
     max-width: 100%;
     box-shadow: none;
     border-radius: none;
+    filter: brightness(1);
 }
