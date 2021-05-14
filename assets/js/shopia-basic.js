@@ -86,3 +86,17 @@ jQuery( document ).ready(function() {
 });
 
 
+const currentlocation = location.href;
+const menuItem = document.querySelectorAll('a.list-group-item');
+const menuLength = menuItem.length
+
+for (let i = 0; i<menuLength; i++){
+    if ( menuItem[i].href === currentlocation ){
+        menuItem[i].className = "bg-dark list-group-item list-group-item-action list-group-item-light fw-bold"
+        console.log('got it')
+    }
+    else{
+        menuItem[i].className = "bg-primary list-group-item list-group-item-action list-group-item-light"
+        console.log('i have no live')
+    }
+}
