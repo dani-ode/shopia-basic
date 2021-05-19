@@ -10,6 +10,7 @@ sass --watch shopia-basic.scss ../../css/shopia-basic/shopia-basic.css --style c
 
 img{
     max-width: 100%;
+    height: auto;
 }
 
 .thumbnail-img img{
@@ -180,6 +181,9 @@ option:hover{
 @media (max-width: 599px){
     .wp-block-column {
         flex-basis: auto !important;
+    }
+    .toc-how-to-install{
+        position: relative !important;
     }
 }
 
@@ -575,7 +579,7 @@ header.masthead {
     filter: brightness(1);
 }
 
-img.wp-image-53 {
+.gambar-terakhir-cara-install img {
     max-width: 100%;
     box-shadow: none;
     border-radius: none;

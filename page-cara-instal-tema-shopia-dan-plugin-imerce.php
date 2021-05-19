@@ -4,12 +4,14 @@
     <div class="row">
         <div class="col-md-3 mb-5">
             <div class="list-group text-white">
-                <a href="<?php the_permalink() ?>" class="list-group-item list-group-item-action list-group-item-light fw-bold"> Memulai </a>
-                <a href="<?php the_permalink() ?>2/" class="list-group-item list-group-item-action list-group-item-light">1. Download file nya</a>
-                <a href="<?php the_permalink() ?>3/" class="list-group-item list-group-item-action list-group-item-light">2. Pasang File nya</a>
-                <a href="<?php the_permalink() ?>4/" class="list-group-item list-group-item-action list-group-item-light">3. Konfigurasi awal</a>
-                <a href="<?php the_permalink() ?>5/" class="list-group-item list-group-item-action list-group-item-light">4. Konfigurasi Lanjutan</a>
-                <a href="<?php the_permalink() ?>6/" class="list-group-item list-group-item-action list-group-item-light">5. Selesai...</a>
+                <div class="position-fixed top-40 z-index-1 toc-how-to-install">
+                    <a href="<?php the_permalink() ?>" class="list-group-item list-group-item-action list-group-item-light fw-bold"> Memulai </a>
+                    <a href="<?php the_permalink() ?>2/" class="list-group-item list-group-item-action list-group-item-light">1. Download file nya</a>
+                    <a href="<?php the_permalink() ?>3/" class="list-group-item list-group-item-action list-group-item-light">2. Pasang File nya</a>
+                    <a href="<?php the_permalink() ?>4/" class="list-group-item list-group-item-action list-group-item-light">3. Konfigurasi awal</a>
+                    <a href="<?php the_permalink() ?>5/" class="list-group-item list-group-item-action list-group-item-light">4. Konfigurasi Lanjutan</a>
+                    <a href="<?php the_permalink() ?>6/" class="list-group-item list-group-item-action list-group-item-light">5. Selesai...</a>
+                </div>
             </div>
         </div>
         <div class="col">
