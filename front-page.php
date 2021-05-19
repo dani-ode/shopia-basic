@@ -20,7 +20,7 @@
                                     <h2 class="display-5 fw-bold fade-in-left">Ini saatnya membangun toko online profesionalmu!</h2>
                                     <p class="col-md-8 fw-light an-delay-3 fade-in-left">Tak perlu ribet untuk miliki toko online dengan desain minimalis, elegant, reponsive, dan pastinya SEO Friendly. Shopia memang didesain untukmu.</p>
                                     <a  href="<?php echo home_url('/pricing'); ?>"><button class="btn bg-addition btn-lg text-white hover bulat mr-2 shadow" type="button">Lihat Harga</button></a>
-                                    <a href="https://demo.shopiatheme.com/"><button class="btn btn-outline text-addition btn-lg over bulat" type="button">Lihat Demo</button></a>
+                                    <a href="https://demo.shopiatheme.com/" target="_blank"><button class="btn btn-outline text-addition btn-lg over bulat" type="button">Lihat Demo</button></a>
                                 </div>
                                 <div class="col">
                                     <img class="fade-in" src="<?php echo get_template_directory_uri().'/assets/images/home-page/shopia-theme-responsive.png' ?>" alt="">
