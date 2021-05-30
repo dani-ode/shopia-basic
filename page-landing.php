@@ -1,22 +1,25 @@
 <?php get_header(); ?>
 
-<header class="masthead">
+<div class="shopia-wrap">
+    <div class="overlay-image"></div>
+</div>
+<header class="masthead z-index-1">
     <div class="container h-100">
         <div class="row h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-10 align-self-end">
                 <h1 class="text-uppercase text-white fw-bold"><?php the_title() ;?></h1>
-                <hr class="divider my-4" />
+                <br>
             </div>
             <div class="col-lg-8 align-self-baseline">
                 <p class="text-white fw-light mb-5">Tampilan minimalis dan memiliki UI/UX mirip Shopee dan Tokopedia. Miliki tema shopia sekarang dan bangun toko online profesionalmu sendiri hari ini! </p>
-                <a class="btn bg-primary btn-lg text-white js-scroll-trigger" href="https://shopiatheme.com/sp-admin/cart">Beli sekarang!</a>
-                <a class="btn bg-addition btn-lg text-white js-scroll-trigger" href="https://demo.shopiatheme.com">Lihat Demo</a>
+                <a class="btn bg-primary btn-lg text-white js-scroll-trigger" href="https://clientarea.shopiatheme.com/cart">Beli sekarang!</a>
+                <a class="btn bg-addition btn-lg text-white js-scroll-trigger" href="https://demo.shopiatheme.com" target="_blank">Lihat Demo</a>
             </div>
         </div>
     </div>
 </header>
 <!-- Services-->
-<section class="page-section pb-5 pt-5" id="services">
+<section class="page-section bg-white z-index-1 pb-5 pt-5" id="services">
     <div class="container">
         <h2 class="text-center fw-bold mt-0">Banyak Fitur</h2>
         <hr class="divider my-4" />
@@ -101,7 +104,7 @@
 </section>
 
 <!-- Call to action-->
-<section class="page-section footer-banner pt-5 pb-5 bg-dark text-white">
+<section class="page-section footer-banner z-index-1 pt-5 pb-5 bg-dark text-white">
     <div class="container text-center">
         <img class="fade-in" src="<?php echo get_template_directory_uri().'/assets/images/home-page/shopia-theme-responsive.png' ?>" alt="">
         <h2 class="mb-4 mt-3 fw-bold">Rilis Toko Olinemu Sendiri Hari Ini!</h2>
@@ -129,7 +132,7 @@
         <p>Harga license Shopia + iMerce hari ini:</p>
         <h3 class="fw-bold">Rp. 39.000</h3>
         <br>
-        <a class="btn bg-primary btn-lg text-white js-scroll-trigger" href="https://shopiatheme.com/sp-admin/cart">Beli sekarang!</a>
+        <a class="btn bg-primary btn-lg text-white js-scroll-trigger" href="https://clientarea.shopiatheme.com/cart">Beli sekarang!</a>
         <br>
         <small class="text-muted fw-light fst-italic">*Promo hanya berlaku untuk 39 license pertama</small>
         </div>
@@ -137,6 +140,7 @@
         
     </div>
 </section>
-
-<?php get_template_part('/template-parts/footer/credit');?>
+<div class="z-index-1">
+    <?php get_template_part('/template-parts/footer/credit');?>
+</div>
 <?php get_footer(); ?>

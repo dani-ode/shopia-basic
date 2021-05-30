@@ -551,12 +551,19 @@ input#wp-comment-cookies-consent {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
+    min-height: 100vh;
+}
+.overlay-image{
     background: linear-gradient(to bottom, rgb(46 95 80 / 68%) 0%, rgb(43 90 78 / 74%) 100%),url(../../images/bg-masthead.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    min-height: 100vh;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+
 }
 
 .card-feature svg {
@@ -585,3 +592,4 @@ header.masthead {
     border-radius: none;
     filter: brightness(1);
 }
+
